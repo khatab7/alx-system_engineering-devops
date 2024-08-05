@@ -38,7 +38,7 @@ defaults
 frontend  khatab_frontend
         bind *:80
         bind *:443 ssl crt /etc/letsencrypt/live/www.khatab.tech/khatab.pem
-        mode http
+        http-request redirect scheme https unless { ssl_fc }
         default_backend khatab_backend
 backend khatab_backend
         balance roundrobin
