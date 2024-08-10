@@ -23,6 +23,6 @@ if __name__ == "__main__":
     name = user.get("name")
     compi = len(completed)
     lentodo = len(todos)
-    print("Employee {} is done with tasks({}/{})".format(name, compi, lentodo))
+    print("Employee {} is done with tasks({}/{}):".format(name, compi, lentodo))
     for complete in completed:
-        print("\t {}".format(complete))
+        print("     {}".format(complete))
