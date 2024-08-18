@@ -1,4 +1,4 @@
-[My first postmortem](pic1.jpg)
+![My first postmortem](pic1.jpg)
 Postmortem Report: Service Outage on August 18, 2024
 Issue Summary
 
@@ -43,4 +43,4 @@ Tasks:
     Document Configuration Changes: Ensure all load balancer configuration changes are documented and reviewed by multiple team members before deployment.
 
 By addressing these areas, we aim to enhance the resilience of our infrastructure and improve our response to future incidents.
-[simple flow diagram](pic2.pig)
+![simple flow diagram](pic2.png)
